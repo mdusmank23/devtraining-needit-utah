@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_58872_needit.validateEmailAddress</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>On demand Script Include to validate email address syntax using regular expressions.&#13;
+</description>
+        <mobile_callable>false</mobile_callable>
+        <name>validateEmailAddress</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[function validateEmailAddress( i, j,email){
+    // Use JavaScript coercion to guarantee emailStr is a string
+    gs.addErrorMessage(i+j+' '+email);
+	
+  }]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 13:42:08</sys_created_on>
+        <sys_id>ae93e36c53102210ca1cd301a0490e77</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>validateEmailAddress</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_ae93e36c53102210ca1cd301a0490e77</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 13:54:16</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>ae93e36c53102210ca1cd301a0490e77</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 13:42:07</sys_created_on>
+        <sys_id>22eda76853102210ca1cd301a0490ee4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 13:42:07</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
