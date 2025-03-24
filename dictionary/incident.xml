@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" db_object_id="bc0a351c198312104f3423cebaaa853d" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element attributes=",target_field=target" label="% complete" max_length="15" name="x_58872_needit_complete" type="percent_complete"/>
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:color1;33:color2;66:color3;90:color4" label="Target" max_length="20" name="x_58872_needit_x_target" type="decimal"/>
+    </element>
+</database>
