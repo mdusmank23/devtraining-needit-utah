@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4cb5bfc75360a210ca1cd301a0490ee9" label="demo scope" max_length="40" name="x_58872_needit_demo_scope" type="collection">
+        <element label="Short desc" max_length="500" name="short_desc" type="string"/>
+    </element>
+</database>

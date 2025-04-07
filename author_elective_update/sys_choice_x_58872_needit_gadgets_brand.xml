@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="brand" table="x_58872_needit_gadgets" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>brand</element>
+            <name>x_58872_needit_gadgets</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-01 21:04:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>brand</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_gadgets_brand</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-01 21:04:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Apple</label>
+            <language>en</language>
+            <name>x_58872_needit_gadgets</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-01 21:07:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-01 21:07:28</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asus</label>
+            <language>en</language>
+            <name>x_58872_needit_gadgets</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-01 21:05:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-01 21:06:00</sys_updated_on>
+            <value>asus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>2</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dell</label>
+            <language>en</language>
+            <name>x_58872_needit_gadgets</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-01 21:04:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-01 21:07:46</sys_updated_on>
+            <value>dell</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>2</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HP</label>
+            <language>en</language>
+            <name>x_58872_needit_gadgets</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-01 21:05:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-01 21:07:42</sys_updated_on>
+            <value>hp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>1</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lenovo</label>
+            <language>en</language>
+            <name>x_58872_needit_gadgets</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-01 21:05:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-01 21:05:26</sys_updated_on>
+            <value>lenovo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>3</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oneplus</label>
+            <language>en</language>
+            <name>x_58872_needit_gadgets</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-01 21:06:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-01 21:06:27</sys_updated_on>
+            <value>oneplus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>3</dependent_value>
+            <element>brand</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Xiomi</label>
+            <language>en</language>
+            <name>x_58872_needit_gadgets</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-01 21:06:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-01 21:07:00</sys_updated_on>
+            <value>xiomi</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

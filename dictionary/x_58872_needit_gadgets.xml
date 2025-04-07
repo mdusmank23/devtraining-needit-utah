@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="db71585b53e0a210ca1cd301a0490ebd" label="Gadgets" max_length="40" name="x_58872_needit_gadgets" type="collection">
+        <element label="Gadget color" max_length="40" name="gadget_color" type="color"/>
+        <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Brand" max_length="40" name="brand" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="3" inactive_on_update="false" label="Xiomi" value="xiomi"/>
+                <element dependent_value="3" inactive_on_update="false" label="Oneplus" value="oneplus"/>
+                <element dependent_value="2" inactive_on_update="false" label="Dell" value="dell"/>
+                <element inactive_on_update="false" label="Apple"/>
+                <element dependent_value="1" inactive_on_update="false" label="Asus" value="asus"/>
+                <element dependent_value="1" inactive_on_update="false" label="Lenovo" value="lenovo"/>
+                <element dependent_value="2" inactive_on_update="false" label="HP" value="hp"/>
+            </choice>
+        </element>
+        <element label="Needed on" max_length="40" name="needed_on" type="glide_date"/>
+        <element label="Required for" max_length="32" name="required_for" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element choice="1" label="Category" max_length="100" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" value="1"/>
+                <element inactive_on_update="false" label="Mobile" value="3"/>
+                <element inactive_on_update="false" label="PC" value="2"/>
+            </choice>
+        </element>
+        <element label="Price" mandatory="true" max_length="20" name="price" type="currency"/>
+        <element label="Specs link" max_length="1024" name="specs_link" type="url"/>
+        <index name="index">
+            <element name="required_for"/>
+        </index>
+    </element>
+</database>
